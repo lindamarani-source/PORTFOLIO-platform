@@ -1,4 +1,4 @@
-### Creative Agency Portfolio Showcase
+## Creative Agency Portfolio Showcase
 A modern, responsive, and dynamic web application built for a creative agency to showcase past projects and update their portfolio in real time. This platform provides potential clients and collaborators with a seamless user experience to explore creative work.
 
  #### Features
@@ -12,27 +12,39 @@ Responsive Layout: Fluid design optimized for desktop, tablet, and mobile viewin
 
 #### Tech Stack
 Frontend: React (via Vite)
+
 Styling: Tailwind CSS / CSS Modules
+
 State Management: React Hooks (useState, useEffect, useMemo)
 
-##### Getting Started
+#### Getting Started
 Prerequisites
+
 Make sure you have Node.js installed on your machine.
+
 Installation
+
 Clone the repository:
+
 bash
+
 git clone <https://github.com/lindamarani-source/PORTFOLIO-platform>
+
 cd creative-agency-portfolio
-Use code with caution.
+
 Install the dependencies:
+
 bash
+
 npm install
-Use code with caution.
+
 Start the local development server:
 bash
+
 npm run dev
-Use code with caution.
+
 View the application:
+
 Open your browser and navigate to http://localhost:5173.
 
 
