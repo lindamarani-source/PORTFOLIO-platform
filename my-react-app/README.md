@@ -1,18 +1,44 @@
-# React + Vite
+### Creative Agency Portfolio Showcase
+A modern, responsive, and dynamic web application built for a creative agency to showcase past projects and update their portfolio in real time. This platform provides potential clients and collaborators with a seamless user experience to explore creative work.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ #### Features
+Project Landing Page: Displays a responsive grid of existing agency projects inspired by the design mock-up.
 
-Currently, two official plugins are available:
+Dynamic Project Form: Allows administrators or agency members to instantly add new projects to the portfolio.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Live Search & Filter: Enables users to dynamically search and filter through projects as they type.
 
-## React Compiler
+Responsive Layout: Fluid design optimized for desktop, tablet, and mobile viewing environments.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+#### Tech Stack
+Frontend: React (via Vite)
+Styling: Tailwind CSS / CSS Modules
+State Management: React Hooks (useState, useEffect, useMemo)
 
-Note: This will impact Vite dev & build performances.
+##### Getting Started
+Prerequisites
+Make sure you have Node.js installed on your machine.
+Installation
+Clone the repository:
+bash
+git clone <https://github.com/lindamarani-source/PORTFOLIO-platform>
+cd creative-agency-portfolio
+Use code with caution.
+Install the dependencies:
+bash
+npm install
+Use code with caution.
+Start the local development server:
+bash
+npm run dev
+Use code with caution.
+View the application:
+Open your browser and navigate to http://localhost:5173.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+#### Future Enhancements
+Persistent Storage: Integrate a backend API or Firebase database to save added projects permanently.
+
+Project Details Page: Implement React Router to allow users to click a project and view deep-dive details.
+
+Category Filters: Add clickable tags (e.g., Branding, Web Design, Video) for advanced project sorting.
